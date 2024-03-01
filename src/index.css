@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #669bbc;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*Utility Classes*/
+.border {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.container {
+    width: 460px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+h1 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.display {
+    width: 100%;
+    height: max-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: start;
+}
+
+.display-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.display-input {
+    width: 70%;
+    padding: 12px 14px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    outline: none;
+    font-size: 18px;
+}
+
+.copy-btn,
+.submit {
+    width: 111px;
+    padding: 12px 14px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #669bbc;
+    color: #FFF;
+    transition: all .2s ease-in-out;
+}
+
+.copy-btn:hover {
+    background: #355970;
+}
+
+.length-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.range-input {
+    width: 60%;
+}
+
+.length-container div {
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+label {
+    font-size: 20px;
+}
+
+.number-checkbox,
+.character-checkbox {
+    display: flex;
+    gap: 1rem;
+}
+
+.submit {
+    width: 100%;
+}
